@@ -1,2 +1,6 @@
-# Explaining-Chemical-Toxicity-Using-Missing-Features
+# Explaining Chemical Toxicity Using Missing Features
 Workshop paper for mli4sd-icml2020
+
+Abstract: Chemical toxicity prediction using machine learning is important in drug development to reduce repeated animal and human testing, thus saving cost and time. It is highly recommended that the predictions of computational toxicology models are mechanistically explainable. Current state of the art machine learning classifiers are based on deep neural networks, which tend to be complex and harder to interpret. In this extended abstract, we apply a recently developed method named contrastive explanations method (CEM) to explain why a chemical or molecule is predicted to be toxic or not. In contrast to popular methods that provide explanations based on what features are present in the molecule, the CEM provides additional explanation on what features are missing from the molecule that is crucial for the prediction, known as the pertinent negative. The CEM does this by optimizing for the minimum perturbation to the model using a projected fast iterative shrinkage-thresholding algorithm (FISTA). We verified that the explanation from CEM matches known toxicophores and findings from other work.
+
+Link to paper: 
